@@ -1,19 +1,16 @@
 import React from "react";
 import Header from "../components/header";
-import Footer from "../components/footer";
 import { container } from "../styles/styles.module.css";
 
-// markup
-const IndexPage = () => {
+const About = () => {
   return (
     <main>
       <Header />
       <section className={container}>
-        <h1>Home</h1>
+        <h1>About</h1>
       </section>
-      <Footer />
     </main>
   );
 };
 
-export default IndexPage;
+export default About;
