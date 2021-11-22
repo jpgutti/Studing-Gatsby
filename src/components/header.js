@@ -26,6 +26,11 @@ const Header = () => {
             Gallery
           </Link>
         </li>
+        <li className={headerItem}>
+          <Link className={headerLink} to="/blog">
+            Blog
+          </Link>
+        </li>
       </ul>
     </header>
   );
